@@ -23,12 +23,12 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-//            JetpackComposeTheme {
-//                // A surface container using the 'background' color from the theme
-//                Surface(
-//                    modifier = Modifier.fillMaxSize(),
-//                    color = MaterialTheme.colorScheme.background
-//                ) {
+            JetpackComposeTheme {
+                // A surface container using the 'background' color from the theme
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
                     /**
                     * this is predefined composable function /
                     * Immediately creates navHost controller
@@ -38,8 +38,8 @@ class MainActivity : ComponentActivity() {
 
                 }
             }
-//        }
-//    }
+        }
+    }
 }
 
 @Composable

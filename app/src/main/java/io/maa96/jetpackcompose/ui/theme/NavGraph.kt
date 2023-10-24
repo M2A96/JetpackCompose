@@ -22,7 +22,7 @@ fun setupNavGraph(
             )
         }
         composable(
-            route = Screen.Detail.route
+            route = Screen.PostDetail.route
         ) {
             detailScreen(
                 navHostController = navHostController
