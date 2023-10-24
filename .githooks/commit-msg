@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -Eefuvx
+
+cat "${1}" | make commitlint

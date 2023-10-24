@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JetpackCompose"
+rootProject.name = "Rubika"
 include(":app")
- 
+
